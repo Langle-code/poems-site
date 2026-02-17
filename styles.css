@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1e1f23;
+    color: #d6d7dc;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.7;
+}
+
+header {
+    text-align: center;
+    padding: 4rem 1rem;
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    color: #8faadc;
+}
+
+.subtitle {
+    color: #9aa0b3;
+    font-style: italic;
+    margin-top: 0.5rem;
+}
+
+.memories {
+    max-width: 700px;
+    margin: auto;
+    padding: 2rem;
+}
+
+.memory {
+    display: block;
+    background: #262830;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-left: 4px solid #5f7dbb;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s ease;
+}
+
+.memory:hover {
+    background: #2d3140;
+    transform: translateX(5px);
+}
+
+.memory h2 {
+    color: #a9c1ff;
+    margin-bottom: 0.3rem;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    font-size: 0.9rem;
+    color: #7a7f95;
+}
