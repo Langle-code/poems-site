@@ -72,13 +72,13 @@ header h1 {
 .memories h2 {
     font-family: 'Playfair Display', serif;
     color: #a9c1ff;
-    font-size: 2.2rem;
+    font-size: 1rem;
     margin-bottom: 2.5rem;
 }
 
 /* ---------- STANZAS ---------- */
 .stanza {
-    margin-bottom: 3.5rem; /* BIG poetic spacing */
+    margin-bottom: 2.5rem; /* BIG poetic spacing */
     white-space: pre-line;
     font-size: 1.05rem;
     color: #d6d7dc;
