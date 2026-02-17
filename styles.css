@@ -1,18 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Inter&display=swap');
 
+/* ---------- RESET ---------- */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* ---------- BASE ---------- */
 body {
-    background-color: #1e1f23;
+    background-color: #1e1f23; /* deep charcoal */
     color: #d6d7dc;
     font-family: 'Inter', sans-serif;
-    line-height: 1.7;
+    line-height: 1.8;
 }
 
+/* ---------- HEADER ---------- */
 header {
     text-align: center;
     padding: 4rem 1rem;
@@ -25,22 +28,24 @@ header h1 {
 }
 
 .subtitle {
+    margin-top: 0.6rem;
     color: #9aa0b3;
     font-style: italic;
-    margin-top: 0.5rem;
 }
 
+/* ---------- MAIN WRAPPER ---------- */
 .memories {
-    max-width: 700px;
+    max-width: 720px;
     margin: auto;
-    padding: 2rem;
+    padding: 2.5rem 2rem;
 }
 
+/* ---------- MEMORY LIST (HOME) ---------- */
 .memory {
     display: block;
-    background: #262830;
-    padding: 1.5rem;
-    margin-bottom: 1.5rem;
+    background-color: #262830;
+    padding: 1.7rem;
+    margin-bottom: 1.6rem;
     border-left: 4px solid #5f7dbb;
     text-decoration: none;
     color: inherit;
@@ -48,18 +53,52 @@ header h1 {
 }
 
 .memory:hover {
-    background: #2d3140;
-    transform: translateX(5px);
+    background-color: #2d3140;
+    transform: translateX(6px);
 }
 
 .memory h2 {
+    font-family: 'Playfair Display', serif;
     color: #a9c1ff;
-    margin-bottom: 0.3rem;
+    margin-bottom: 0.4rem;
 }
 
+.memory p {
+    color: #9aa0b3;
+    font-size: 0.95rem;
+}
+
+/* ---------- POEM PAGE ---------- */
+.memories h2 {
+    font-family: 'Playfair Display', serif;
+    color: #a9c1ff;
+    font-size: 2.2rem;
+    margin-bottom: 2.5rem;
+}
+
+/* ---------- STANZAS ---------- */
+.stanza {
+    margin-bottom: 3.5rem; /* BIG poetic spacing */
+    white-space: pre-line;
+    font-size: 1.05rem;
+    color: #d6d7dc;
+}
+
+/* ---------- LINKS ---------- */
+a {
+    color: #8faadc;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ---------- FOOTER ---------- */
 footer {
     text-align: center;
-    padding: 2rem;
-    font-size: 0.9rem;
+    padding: 2.5rem;
+    font-size: 0.85rem;
     color: #7a7f95;
 }
